@@ -1,0 +1,14 @@
+```plaintext
+# requirements.txt
+
+# Requests library for making HTTP requests
+requests==2.26.0
+```
+
+In this example, the `requests` library is specified with a version number (`2.26.0`). This is the version of the library that the script was tested with. You can adjust the version based on your preferences, but including specific versions helps ensure that others using your script get a consistent experience.
+
+To generate this file, you can use the following command:
+
+```bash
+pip freeze > requirements.txt
+```
